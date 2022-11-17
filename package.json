@@ -1,0 +1,18 @@
+{
+  "name": "assessment1",
+  "version": "1.0.0",
+  "description": "stage2 developer assessment framework independent",
+  "main": "client/src/index.js",
+  "scripts": {
+    "server": "node server/src/server.js",
+    "client": "node client/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taner Topaç",
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
